@@ -42,6 +42,7 @@ struct Index {
       .digitalCrownSensitivity(CrownSensitivity.MEDIUM)
       .linearGradient({ colors: [[$r('app.color.background_gradient_start'), 0], [Color.Black, 1]] })
       .focusable(true)
+      .defaultFocus(true)
       .focusScopeId("1")
       .focusScopePriority("1", FocusPriority.PREVIOUS)
 
