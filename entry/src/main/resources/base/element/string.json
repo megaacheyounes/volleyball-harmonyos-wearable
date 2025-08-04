@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Volleyball score"
+    },
+    {
+      "name": "vibrator_permission",
+      "value": "To provide touch feedback"
+    }
+  ]
+}
