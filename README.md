@@ -5,7 +5,7 @@ This is a HarmonyOS wearable app for tracking volleyball match scores on Huawei 
 ## 🙏 Credit
 
 This project was inspired by the original  
-[Volleyball Score for Android Wear OS](https://github.com/RuiCunhaM/volleyball-wear-os) by Rui Cunha.
+[Volleyball Score for Android Wear OS](https://github.com/RuiCunhaM/volleyball-wear-os) by [Rui C. Monteiro](https://github.com/RuiCunhaM).
 
 ## ✨ Features
 
