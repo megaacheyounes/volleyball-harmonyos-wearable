@@ -8,7 +8,7 @@ export default struct CurvedText {
   private centerX: number = 233
   private centerY: number = 233
   // props
-  @Prop text: string
+  @Prop @Watch("drawCurvedText") text: string
   @Prop fontSize?: number = 35
   @Prop startAngle: number
   @Prop clockwise: boolean
@@ -23,6 +23,7 @@ export default struct CurvedText {
   }
 
   private drawCurvedText() {
+    this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight)
     // Draw current time
     this.drawTextAlongArc(this.text, this.startAngle, this.radius, this.clockwise)
   }
