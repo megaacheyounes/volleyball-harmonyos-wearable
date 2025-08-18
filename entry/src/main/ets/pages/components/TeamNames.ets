@@ -3,7 +3,6 @@ import CurvedText from './CurvedText';
 @Component
 export default struct TeamNames {
   private fontSize: number = 32
-  @State currentTime: string = "00:00"
 
   build() {
     Stack() {

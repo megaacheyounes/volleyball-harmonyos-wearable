@@ -40,7 +40,7 @@ struct Index {
       .effectMode(EdgeEffect.Spring)
       .indicator(this.arcDotIndicator)
       .digitalCrownSensitivity(CrownSensitivity.MEDIUM)
-      .linearGradient({ colors: [[$r('app.color.background_gradient_start'), 0], [Color.Black, 1]] })
+      .backgroundColor(Color.Black)
       .focusable(true)
       .defaultFocus(true)
       .focusScopeId("1")

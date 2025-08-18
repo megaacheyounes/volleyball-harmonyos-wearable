@@ -19,7 +19,7 @@ export default struct OptionsScreen {
       this.undoLastScore()
     }
   }, {
-    title: 'Reset score',
+    title: 'Reset Score',
     action: () => {
       this.resetCurrentMatch()
     }
